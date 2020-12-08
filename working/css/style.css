@@ -23,7 +23,7 @@ section, footer, header, aside{
 --------------------------*/
 
 
-#clock{ width: 1370px; padding: 40px; margin: 0 auto 30px; position: relative; }
+#clock{ width: auto; padding: 40px; margin: 0 auto 30px; position: relative; }
 
 #clock:after{
 	content:'';
@@ -37,13 +37,13 @@ section, footer, header, aside{
 	z-index:-1;
 }
 
-/* 液晶宽度 */
+/* 液晶高度 */
 #clock .display{
 	text-align:center;
 	padding: 40px 20px 20px;
 	border-radius:6px;
 	position:relative;
-	height: 154px;
+	height: 354px;
 }
 
 
@@ -124,10 +124,11 @@ section, footer, header, aside{
 	text-align:left;
 	position:relative;
 	/* 液晶字体宽度 */
-	width: 128px;
+	width: 228px;
 	height:50px;
 	display:inline-block;
-	margin:0 4px;
+	/* 液晶字体间隔 */
+	margin:0 24px;
 }
 
 #clock .digits div span{
@@ -155,31 +156,31 @@ section, footer, header, aside{
  d6|	|d7
 	d3-
 */
-#clock .digits .d1{			height:5px;width:116px;top:0;left:6px;}
+#clock .digits .d1{			height:25px;width:216px;top:0;left:6px;}
 #clock .digits .d1:before{	border-width:0 5px 5px 0;border-right-color:inherit;left:-5px;}
 #clock .digits .d1:after{	border-width:0 0 5px 5px;border-left-color:inherit;right:-5px;}
 
-#clock .digits .d2{			height:5px;width:116px;top:24px;left:6px;}
+#clock .digits .d2{			height:25px;width:216px;top:124px;left:6px;}
 #clock .digits .d2:before{	border-width:3px 4px 2px;border-right-color:inherit;left:-8px;}
 #clock .digits .d2:after{	border-width:3px 4px 2px;border-left-color:inherit;right:-8px;}
 
-#clock .digits .d3{			height:5px;width:116px;top:48px;left:6px;}
+#clock .digits .d3{			height:25px;width:216px;top:248px;left:6px;}
 #clock .digits .d3:before{	border-width:5px 5px 0 0;border-right-color:inherit;left:-5px;}
 #clock .digits .d3:after{	border-width:5px 0 0 5px;border-left-color:inherit;right:-5px;}
 
-#clock .digits .d4{			width:5px;height:14px;top:7px;left:0;}
+#clock .digits .d4{			width:25px;height:114px;top:7px;left:0;}
 #clock .digits .d4:before{	border-width:0 5px 5px 0;border-bottom-color:inherit;top:-5px;}
 #clock .digits .d4:after{	border-width:0 0 5px 5px;border-left-color:inherit;bottom:-5px;}
 
-#clock .digits .d5{			width:5px;height:14px;top:7px;right:0;}
+#clock .digits .d5{			width:25px;height:114px;top:7px;right:0;}
 #clock .digits .d5:before{	border-width:0 0 5px 5px;border-bottom-color:inherit;top:-5px;}
 #clock .digits .d5:after{	border-width:5px 0 0 5px;border-top-color:inherit;bottom:-5px;}
 
-#clock .digits .d6{			width:5px;height:14px;top:32px;left:0;}
+#clock .digits .d6{			width:25px;height:114px;top:132px;left:0;}
 #clock .digits .d6:before{	border-width:0 5px 5px 0;border-bottom-color:inherit;top:-5px;}
 #clock .digits .d6:after{	border-width:0 0 5px 5px;border-left-color:inherit;bottom:-5px;}
 
-#clock .digits .d7{			width:5px;height:14px;top:32px;right:0;}
+#clock .digits .d7{			width:25px;height:114px;top:132px;right:0;}
 #clock .digits .d7:before{	border-width:0 0 5px 5px;border-bottom-color:inherit;top:-5px;}
 #clock .digits .d7:after{	border-width:5px 0 0 5px;border-top-color:inherit;bottom:-5px;}
 
