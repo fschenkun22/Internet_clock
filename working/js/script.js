@@ -35,6 +35,8 @@ $(function(){
 			for(var i=1; i<8; i++){
 				pos.append('<span class="d' + i + '">');
 			}
+			// pos.append('<span class="d4">')
+
 
 			// Set the digits as key:value pairs in the digits object
 			digits[this] = pos;
@@ -67,11 +69,15 @@ $(function(){
 		// d is for day of week and A is for AM/PM
 
 		var now = moment().format("hhmmssdA");
+		console.log(now);
+		// var now = "0812463PM";
 
 		digits.h1.attr('class', digit_to_name[now[0]]);
 		digits.h2.attr('class', digit_to_name[now[1]]);
+
 		digits.m1.attr('class', digit_to_name[now[2]]);
 		digits.m2.attr('class', digit_to_name[now[3]]);
+		
 		digits.s1.attr('class', digit_to_name[now[4]]);
 		digits.s2.attr('class', digit_to_name[now[5]]);
 

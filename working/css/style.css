@@ -3,6 +3,8 @@ body{
 	font:15px/1.3 Arial, sans-serif;
 	color: #4f4f4f;
 	z-index:1;
+	padding: 0;
+	margin: 0;
 }
 
 a, a:visited {
@@ -43,7 +45,7 @@ section, footer, header, aside{
 	padding: 40px 20px 20px;
 	border-radius:6px;
 	position:relative;
-	height: 354px;
+	height: 384px;
 }
 
 
@@ -156,33 +158,33 @@ section, footer, header, aside{
  d6|	|d7
 	d3-
 */
-#clock .digits .d1{			height:25px;width:216px;top:0;left:6px;}
-#clock .digits .d1:before{	border-width:0 5px 5px 0;border-right-color:inherit;left:-5px;}
-#clock .digits .d1:after{	border-width:0 0 5px 5px;border-left-color:inherit;right:-5px;}
+#clock .digits .d1{			height:25px;width:150px;top:12px;left:38px;}
+#clock .digits .d1:before{	border-width:0 30px 25px 0;border-right-color:inherit;left:-30px;}
+#clock .digits .d1:after{	border-width:0 0 25px 30px;border-left-color:inherit;right:-30px;}
 
-#clock .digits .d2{			height:25px;width:216px;top:124px;left:6px;}
-#clock .digits .d2:before{	border-width:3px 4px 2px;border-right-color:inherit;left:-8px;}
-#clock .digits .d2:after{	border-width:3px 4px 2px;border-left-color:inherit;right:-8px;}
+#clock .digits .d2{			height:25px;width:150px;top:181px;left:38px;}
+#clock .digits .d2:before{	border-width:13px 25px 12px;border-right-color:inherit;left:-50px;}
+#clock .digits .d2:after{	border-width:13px 25px 12px;border-left-color:inherit;right:-50px;}
 
-#clock .digits .d3{			height:25px;width:216px;top:248px;left:6px;}
-#clock .digits .d3:before{	border-width:5px 5px 0 0;border-right-color:inherit;left:-5px;}
-#clock .digits .d3:after{	border-width:5px 0 0 5px;border-left-color:inherit;right:-5px;}
+#clock .digits .d3{			height:25px;width:150px;top:348px;left:38px;}
+#clock .digits .d3:before{	border-width:25px 30px 0 0;border-right-color:inherit;left:-30px;}
+#clock .digits .d3:after{	border-width:25px 0 0 30px;border-left-color:inherit;right:-30px;}
 
-#clock .digits .d4{			width:25px;height:114px;top:7px;left:0;}
-#clock .digits .d4:before{	border-width:0 5px 5px 0;border-bottom-color:inherit;top:-5px;}
-#clock .digits .d4:after{	border-width:0 0 5px 5px;border-left-color:inherit;bottom:-5px;}
+#clock .digits .d4{			width:25px;height:120px;top:50px;left:0;}
+#clock .digits .d4:before{	border-width:0 25px 30px 0;border-bottom-color:inherit;top:-30px;}
+#clock .digits .d4:after{	border-width:0 0 25px 25px;border-left-color:inherit;bottom:-25px;}
 
-#clock .digits .d5{			width:25px;height:114px;top:7px;right:0;}
-#clock .digits .d5:before{	border-width:0 0 5px 5px;border-bottom-color:inherit;top:-5px;}
-#clock .digits .d5:after{	border-width:5px 0 0 5px;border-top-color:inherit;bottom:-5px;}
+#clock .digits .d5{			width:25px;height:120px;top:50px;right:0;}
+#clock .digits .d5:before{	border-width:0 0 30px 25px;border-bottom-color:inherit;top:-30px;}
+#clock .digits .d5:after{	border-width:25px 0 0 25px;border-top-color:inherit;bottom:-25px;}
 
-#clock .digits .d6{			width:25px;height:114px;top:132px;left:0;}
-#clock .digits .d6:before{	border-width:0 5px 5px 0;border-bottom-color:inherit;top:-5px;}
-#clock .digits .d6:after{	border-width:0 0 5px 5px;border-left-color:inherit;bottom:-5px;}
+#clock .digits .d6{			width:25px;height:120px;top:221px;left:0;}
+#clock .digits .d6:before{	border-width:0 25px 30px 0;border-bottom-color:inherit;top:-30px;}
+#clock .digits .d6:after{	border-width:0 0 25px 25px;border-left-color:inherit;bottom:-25px;}
 
-#clock .digits .d7{			width:25px;height:114px;top:132px;right:0;}
-#clock .digits .d7:before{	border-width:0 0 5px 5px;border-bottom-color:inherit;top:-5px;}
-#clock .digits .d7:after{	border-width:5px 0 0 5px;border-top-color:inherit;bottom:-5px;}
+#clock .digits .d7{			width:25px;height:120px;top:221px;right:0;}
+#clock .digits .d7:before{	border-width:0 0 30px 25px;border-bottom-color:inherit;top:-30px;}
+#clock .digits .d7:after{	border-width:25px 0 0 25px;border-top-color:inherit;bottom:-25px;}
 
 
 /* 1 */
@@ -289,21 +291,21 @@ section, footer, header, aside{
 /* The dots */
 
 #clock .digits div.dots{
-	width:5px;
+	width:15px;
 }
 
 #clock .digits div.dots:before,
 #clock .digits div.dots:after{
-	width:5px;
-	height:5px;
+	width:25px;
+	height:25px;
 	content:'';
 	position:absolute;
 	left:0;
-	top:14px;
+	top:100px;
 }
 
 #clock .digits div.dots:after{
-	top:34px;
+	top:265px;
 }
 
 
