@@ -70,7 +70,7 @@ $(function(){
 
 		var now = moment().format("hhmmssdA");
 		console.log(now);
-		// var now = "0812463PM";
+		var now = "8812463PM";
 
 		digits.h1.attr('class', digit_to_name[now[0]]);
 		digits.h2.attr('class', digit_to_name[now[1]]);
