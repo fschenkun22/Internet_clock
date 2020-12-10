@@ -126,11 +126,11 @@ section, footer, header, aside{
 	text-align:left;
 	position:relative;
 	/* 液晶字体宽度 */
-	width: 28px;
+	width: 35px;
 	height:50px;
 	display:inline-block;
 	/* 液晶字体间隔 */
-	margin:0 32px;
+	margin:0 28px;
 }
 
 #clock .digits div span{
@@ -159,33 +159,33 @@ section, footer, header, aside{
 	d3-
 */
 
-#clock .digits .d1{			height:10px;width:64px;top:8px;left:6px;}
-#clock .digits .d1:before{	border-width:0 10px 10px 0;border-right-color:inherit;left:-10px;}
-#clock .digits .d1:after{	border-width:0 0 10px 10px;border-left-color:inherit;right:-10px;}
+#clock .digits .d1{			height:15px;width:50px;top:0px;left:-10px;}
+#clock .digits .d1:before{	border-width:0 15px 15px 0;border-right-color:inherit;left:-15px;}
+#clock .digits .d1:after{	border-width:0 0 15px 15px;border-left-color:inherit;right:-15px;}
 
-#clock .digits .d2{			height:10px;width:64px;top:99px;left:6px;}
-#clock .digits .d2:before{	border-width:0px 0px -1px;border-right-color:inherit;left:-10px;}
-#clock .digits .d2:after{	border-width:-1px 0px 0px;border-left-color:inherit;right:-10px;}
+#clock .digits .d2{			height:15px;width:50px;top:89px;left:-10px;}
+#clock .digits .d2:before{	border-width:8px 13px 7px;border-right-color:inherit;left:-26px;}
+#clock .digits .d2:after{	border-width:7px 13px 8px;border-left-color:inherit;right:-26px;}
 
-#clock .digits .d3{			height:10px;width:64px;top:189px;left:6px;}
-#clock .digits .d3:before{	border-width:10px 10px 0 0;border-right-color:inherit;left:-10px;}
-#clock .digits .d3:after{	border-width:10px 0 0 10px;border-left-color:inherit;right:-10px;}
+#clock .digits .d3{			height:15px;width:50px;top:178px;left:-10px;}
+#clock .digits .d3:before{	border-width:15px 15px 0 0;border-right-color:inherit;left:-15px;}
+#clock .digits .d3:after{	border-width:15px 0 0 15px;border-left-color:inherit;right:-15px;}
 
-#clock .digits .d4{			width:10px;height:74px;top:19px;left:-5px;}
-#clock .digits .d4:before{	border-width:0 10px 10px 0;border-bottom-color:inherit;top:-10px;}
-#clock .digits .d4:after{	border-width:0 0 10px 10px;border-left-color:inherit;bottom:-10px;}
+#clock .digits .d4{			width:15px;height:60px;top:19px;left:-26px;}
+#clock .digits .d4:before{	border-width:0 15px 15px 0;border-bottom-color:inherit;top:-15px;}
+#clock .digits .d4:after{	border-width:0 0 15px 15px;border-left-color:inherit;bottom:-15px;}
 
-#clock .digits .d5{			width:10px;height:74px;top:19px;right:-53px;}
-#clock .digits .d5:before{	border-width:0 0 10px 10px;border-bottom-color:inherit;top:-10px;}
-#clock .digits .d5:after{	border-width:10px 0 0 10px;border-top-color:inherit;bottom:-10px;}
+#clock .digits .d5{			width:15px;height:60px;top:19px;right:-21px;}
+#clock .digits .d5:before{	border-width:0 0 15px 15px;border-bottom-color:inherit;top:-15px;}
+#clock .digits .d5:after{	border-width:15px 0 0 15px;border-top-color:inherit;bottom:-15px;}
 
-#clock .digits .d6{			width:10px;height:74px;top:114px;left:-5px;}
-#clock .digits .d6:before{	border-width:0 10px 10px 0;border-bottom-color:inherit;top:-10px;}
-#clock .digits .d6:after{	border-width:0 0 10px 10px;border-left-color:inherit;bottom:-10px;}
+#clock .digits .d6{			width:15px;height:60px;top:114px;left:-26px;}
+#clock .digits .d6:before{	border-width:0 15px 15px 0;border-bottom-color:inherit;top:-15px;}
+#clock .digits .d6:after{	border-width:0 0 15px 15px;border-left-color:inherit;bottom:-15px;}
 
-#clock .digits .d7{			width:10px;height:74px;top:114px;right:-53px;}
-#clock .digits .d7:before{	border-width:0 0 10px 10px;border-bottom-color:inherit;top:-10px;}
-#clock .digits .d7:after{	border-width:10px 0 0 10px;border-top-color:inherit;bottom:-10px;}
+#clock .digits .d7{			width:15px;height:60px;top:114px;right:-21px;}
+#clock .digits .d7:before{	border-width:0 0 15px 15px;border-bottom-color:inherit;top:-15px;}
+#clock .digits .d7:after{	border-width:15px 0 0 15px;border-top-color:inherit;bottom:-15px;}
 
 /* 1 */
 
@@ -301,7 +301,7 @@ section, footer, header, aside{
 	height:10px;
 	content:'';
 	position:absolute;
-	left:0;
+	left:20px;
 	top:47px;
 }
 
