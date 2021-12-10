@@ -1,23 +1,21 @@
 
 import Home from '../user/home'
 import Settings from '../user/settings'
-import NoPage from '../NoPage'
 
 export const userRouters = [
 
     {
         path:'/user/home',
-        element:<Home/>
+        component:Home
     },
 
     {
         path:'/user/settings',
-        element:<Settings/>
-    },
+        component:Settings
+    }
 
     {
         path:'/404',
-        element:<NoPage/>
     }
 
 ]
