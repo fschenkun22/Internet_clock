@@ -1,11 +1,11 @@
 import React from 'react'
 
-function NoPage() {
+function Login() {
     return (
         <div>
-            404
+            login
         </div>
     )
 }
 
-export default NoPage
+export default Login

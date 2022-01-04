@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function Settings() {
+function Home() {
     return (
         <div>
-            Settings
+            this is home
         </div>
     )
 }
+
+export default Home

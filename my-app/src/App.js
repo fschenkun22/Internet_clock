@@ -1,37 +1,37 @@
-import React, { Component } from 'react'
-import { Route ,Routes } from 'react-router-dom'
+// import React from 'react'
+// import { Routes,Route } from 'react-router-dom'
+// import Home from './pages/Home'
+// import Login from './pages/Login'
 
-import Frame from './common/frame'
-import Home from './user/home'
-import NoPage from './NoPage'
-import Settings from './user/settings'
-import Login from './login'
-import Detail from './user/detail'
+// function App() {
+//   return (
+//     <>
+//       <Routes>
+//         <Route path='/' element ={<Home/>}/>
+//         <Route path='/login' element = {<Login/>}/>
+//       </Routes>
+//     </>
+//   )
+// }
 
+// export default App
 
-export default class App extends Component {
+import { Link, Outlet } from "react-router-dom";
 
-
-
-  render() {
-    return (
-      <div>
-          <Routes>
-
-
-           <Route path='/user' element={<Frame/>}>
-              <Route index element={<Home />}/>
-              <Route path ='/user/detail/:id' element={<Detail/>}/>
-           </Route>
-
-            <Route path='/login' element={<Login/>}/>
-            <Route path='/404' element={<NoPage/>}/>
-            <Route path='/settings' element={<Settings/>}/>
-          </Routes>
-
-      </div>
-    )
-  }
-
+export default function App() {
+  return (
+    <div>
+      <h1>Bookkeeper</h1>
+      <nav
+        style={{
+          borderBottom: "solid 1px",
+          paddingBottom: "1rem"
+        }}
+      >
+        <Link to="/invoices">Invoices</Link> |{" "}
+        <Link to="/expenses">Expenses</Link>
+      </nav>
+      <Outlet/>
+    </div>
+  );
 }
-
