@@ -32,6 +32,7 @@ export default function App() {
         <Link to="/expenses">Expenses</Link>
       </nav>
       <Outlet/>
+
     </div>
   );
 }

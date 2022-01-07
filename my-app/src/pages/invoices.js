@@ -1,10 +1,11 @@
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import { getInvoices } from "../data";
 
 export default function Invoices() {
   let invoices = getInvoices();
   return (
     <div style={{ display: "flex" }}>
+      <div>left list</div>
       <nav
         style={{
           borderRight: "solid 1px",
@@ -21,6 +22,8 @@ export default function Invoices() {
           </Link>
         ))}
       </nav>
+      <Outlet />
+      left list end
     </div>
   );
 }
