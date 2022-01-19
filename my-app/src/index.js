@@ -11,7 +11,9 @@ render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />}>
+
         <Route path="expenses" element={<Expenses />}></Route>
+
         <Route path="invoices" element={<Invoices />}>
           <Route
           index
@@ -23,7 +25,9 @@ render(
           >
 
           </Route>
+
           <Route path=":invoiceId" element={<Invoice />}></Route>
+          
         </Route>
       </Route>
       <Route
