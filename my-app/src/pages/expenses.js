@@ -2,9 +2,9 @@ import React from 'react'
 
 function Expenses() {
     return (
-        <div>
-            Expenses
-        </div>
+        <main style={{ padding:"1rem 0"}}>
+            <h2>Expenses</h2>
+        </main>
     )
 }
 
